@@ -1,0 +1,58 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        black: "#000",
+        "backgrounds-helper": "#fff",
+        "error-500": "#d80027",
+        "icons-dark-light": "#f2f2f2",
+        "neutral-400": "#d9d9d9",
+        "text-medium": "#7b7b7b",
+        "text-dark": "#373737",
+        "text-dark1": "#292929",
+        "opacities-dark-20": "rgba(0, 0, 0, 0.2)",
+        "dark-gray": "#333",
+        "neutral-500": "#cdcdcd",
+        primary: "#6884fd",
+        "neutral-600": "#a4a4a4",
+        "icons-light-dark": "#1f6bff",
+      },
+      spacing: {},
+      fontFamily: {
+        "font-awesome-5-pro": "'Font Awesome 5 Pro'",
+        "desktop-bodytext-regular-21": "'Noto Sans'",
+        "common-caption-semibold": "Nunito",
+        montserrat: "Montserrat",
+        "desktop-heading-bold-61": "Satoshi",
+        inter: "Inter",
+        "desktop-small-regular-16": "'Maison Neue'",
+        abeezee: "ABeeZee",
+        "segoe-ui": "'Segoe UI'",
+      },
+      borderRadius: {
+        "3xs-8": "9.8px",
+        "31xl": "50px",
+        "3xs": "10px",
+        xl: "20px",
+        "10xs": "3px",
+      },
+    },
+    fontSize: {
+      "7xl-2": "26.2px",
+      base: "16px",
+      lg: "18px",
+      sm: "14px",
+      "3xs-7": "9.7px",
+      "2xl": "21px",
+      "42xl": "61px",
+      "15xl": "34px",
+      "7xl": "26px",
+      inherit: "inherit",
+    },
+  },
+  corePlugins: {
+    preflight: false,
+  },
+};
